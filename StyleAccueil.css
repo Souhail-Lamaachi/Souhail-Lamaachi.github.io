@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 4 déc. 2023, 12:16:36
+    Author     : Souhaïl
+*/
+body {
+    margin:0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Largeur de la barre */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    padding: 20px;
+    color: #E1D8D0;
+}
+.text{
+    font-size: 20px;
+}
+body{
+    background-image: url("ImageAccueil/CR7.jpg");
+    height: 135vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.titre {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.titre h1 {
+  color: #fff;
+  font-size: 50px;
+  text-decoration: underline;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  position: absolute;
+  top: 93%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact h2 {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: underline;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
